@@ -1,4 +1,4 @@
-# Measuring fairness from feature importance
+# Measuring fairness through feature importance
 
 This repository contains an empirical comparison between feature importance and fairness measures,
 by examining measures before and after bias removal technique. We use reweighing to remove bias and
