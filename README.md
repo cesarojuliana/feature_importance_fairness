@@ -8,4 +8,4 @@ We calculate the following measures to evaluate fairness: disparate impact, equa
 
 SHAP is a technique that produces local explanations for classifier predictions. The technique can be applied to any machine learning model. For more details you can see SHAP [paper](http://papers.nips.cc/paper/7062-a-unified-approach-to-interpreting-model-predictions) and [github](https://github.com/slundberg/shap) implementation in Python.
 
-We use AIF-360 library to apply reweighing and to calculate disparate impact and equality of opportunity metrics. For a description of library you can see [paper](https://arxiv.org/abs/1810.01943) description, and the implementation in Python can be found [here](https://github.com/IBM/AIF360)
+We use AIF-360 library to apply reweighing and to calculate disparate impact and equality of opportunity metrics. For a description of library you can see [paper](https://arxiv.org/abs/1810.01943) description, and the implementation in Python can be found [here](https://github.com/IBM/AIF360).
