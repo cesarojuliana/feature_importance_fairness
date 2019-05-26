@@ -1,13 +1,13 @@
 # Measuring fairness through feature importance
 
 This repository contains an empirical comparison between feature importance and fairness measures,
-by examining measures before and after bias removal technique. We use reweighing to remove bias and
+by examining measures with and without bias removal technique. We use reweighing to remove bias and
 SHAP (SHapley Additive exPlanations) to measure feature importance.
 
-We calculate the following measures to evaluate fairness: disparate impact, equality of opportunity and disparate impact. 
+We calculate the following measures to evaluate fairness: disparate impact, equality of opportunity and consitency. 
 
 We use four datasets for the study: Adult, German, Default and COMPAS. These datasets are often discussed with respect to fairness. The datasets used are available in folder `data`, and the results obtained are in folder `results`.
 
 SHAP is a technique that produces local explanations for classifier predictions. The technique can be applied to any machine learning model. For more details you can see SHAP [paper](http://papers.nips.cc/paper/7062-a-unified-approach-to-interpreting-model-predictions) and [github](https://github.com/slundberg/shap) implementation in Python.
 
-We use AIF-360 library to apply reweighing and to calculate disparate impact and equality of opportunity metrics. For a description of library you can see [paper](https://arxiv.org/abs/1810.01943) description, and the implementation in Python can be found [here](https://github.com/IBM/AIF360).
+We use AIF-360 library to apply reweighing and to calculate disparate impact and equality of opportunity metrics. For a description of library you can see the [paper](https://arxiv.org/abs/1810.01943), and the implementation in Python can be found [here](https://github.com/IBM/AIF360).
