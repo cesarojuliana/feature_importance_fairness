@@ -12,6 +12,6 @@ In `utils.py` are implemented the functions used to calculate fairness measures,
 
 **SHAP** is a technique that produces local explanations for classifier predictions. The technique can be applied to any machine learning model. For more details you can see SHAP [paper](http://papers.nips.cc/paper/7062-a-unified-approach-to-interpreting-model-predictions) and [github](https://github.com/slundberg/shap) implementation in Python.
 
-**Reweighing** is a echinique to reduce bias from model that assigns weights to the points in the training dataset. Lower  weights  are  assigned  to  instances  that  theprivileged class favors. For more details you can see reweighing [paper](https://link.springer.com/article/10.1007/s10115-011-0463-8)
+**Reweighing** is a echinique to reduce bias from model that assigns weights to the points in the training dataset. Lower  weights  are  assigned  to  instances  that  theprivileged class favors. For more details you can see reweighing [paper](https://link.springer.com/article/10.1007/s10115-011-0463-8).
 
 We use AIF-360 library to apply reweighing and to calculate disparate impact and equality of opportunity metrics. For a description of library you can see the [paper](https://arxiv.org/abs/1810.01943), and the implementation in Python can be found [here](https://github.com/IBM/AIF360).
