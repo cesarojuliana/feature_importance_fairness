@@ -4,7 +4,7 @@ This repository contains an empirical comparison between feature importance and 
 by examining measures with and without bias removal technique. We use reweighing to remove bias and
 SHAP (SHapley Additive exPlanations) to measure feature importance.
 
-We calculate the following measures to evaluate fairness: disparate impact, statistical parity, equality of opportunity and consitency. 
+We calculate the following measures to evaluate fairness: disparate impact, statistical parity,  equality of opportunity and consitency. 
 
 We use four datasets for the study: Adult, German, Default and COMPAS, these datasets are often discussed with respect to fairness. We evaluate the results with three models: Random Forest, Gradient Boosting and Logistic Regression. The datasets used are available in folder `data`, and the results obtained are in folder `results`. 
 
