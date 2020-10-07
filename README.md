@@ -10,7 +10,6 @@ We use four datasets for the study: Adult, German, Default and COMPAS, these dat
 
 In `utils.py` are implemented the functions used to calculate fairness measures, and to evaluate feature importance result.
 
-
 **SHAP** is a technique that produces local explanations for classifier predictions. The technique can be applied to any machine learning model. For more details you can see SHAP [paper](http://papers.nips.cc/paper/7062-a-unified-approach-to-interpreting-model-predictions) and [github](https://github.com/slundberg/shap) implementation in Python.
 
 **Reweighing** is a echinique to reduce bias from model that assigns weights to the points in the training dataset. Lower  weights  are  assigned  to  instances  that  theprivileged class favors. For more details you can see reweighing [paper](https://link.springer.com/article/10.1007/s10115-011-0463-8).
